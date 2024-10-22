@@ -1,2 +1,2 @@
-# EasyOrgChart
-Quick custom org chart in google slides from a spreadsheet
+# Slides Toolkit Pro
+Shortcuts to design google slides faster like consultants or bankers use
