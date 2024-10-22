@@ -1,0 +1,129 @@
+html, body {
+  background-color: #181818;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: #F0F0F0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 800px; /* Setting a max width for the page content */
+  margin: auto; /* Centering the content on the page */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.main-header h1, .main-header p {
+  text-align: center;
+}
+
+h1 {
+  display: flex;
+  align-items: center; /* Center align items horizontally */
+  justify-content: center; /* Center align items vertically */
+  height: 100px; /* Adjust as needed */
+}
+
+
+.logo {
+  max-height: 50px; /* Adjust this value to fit your header's height */
+  width: auto; /* Maintains the aspect ratio of the logo */
+  margin-right: 10px; /* Adjust the value as needed */
+}
+
+
+.content a {
+  color: white; /* Setting the link color to white */
+  text-decoration: underline; /* Keeping the underline */
+}
+
+
+.cta-button {
+  display: inline-block; /* Regular button size */
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  /* Centering the button */
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+.steps .step {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  justify-content: space-between;
+}
+
+.step .text-content {
+  flex: 1;
+  text-align: left; /* Left-aligning text */
+  padding: 10px;
+}
+
+.step .image-content {
+  flex: 1;
+  text-align: center; /* Center-aligning images */
+  padding: 10px;
+}
+
+.step img {
+  width: 100%;
+  max-width: 300px; /* Smaller image size with max width */
+  height: auto;
+  border: 2px solid #00b3e5; /* Light blue border */
+}
+
+@media screen and (max-width: 768px) {
+  .steps .step {
+    flex-direction: column;
+  }
+
+  .step img {
+    width: 80%;
+    max-width: none; /* Allow full width on smaller screens */
+  }
+}
+
+
+.small-superscript {
+  font-size: 10px; /* Adjust as needed */
+}
+
+footer {
+  text-align: center; /* Centering the footer content */
+  margin: 20px 0; /* Adding some space around the footer */
+  color: white; /* Setting the footer text color to white */
+  font-size: 10px;
+}
+
+footer a {
+  color: white; /* Setting the link color to white */
+  text-decoration: underline; /* Keeping the underline */
+}
+
+footer a:hover {
+  text-decoration: none; /* Optional: Remove underline on hover */
+}
+
+
+.navigation-links {
+  text-align: center; /* Centering the text */
+  margin: 20px 0; /* Adding some space around the links */
+}
+
+.navigation-links a {
+  color: white; /* Setting the link color to white */
+  margin: 0 10px; /* Adding space between the links */
+  text-decoration: none; /* Removing underline from links */
+}
+
+.navigation-links a:hover {
+  text-decoration: underline; /* Optional: Underline on hover for better usability */
+}
